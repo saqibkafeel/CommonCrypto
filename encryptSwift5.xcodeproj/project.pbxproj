@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4669C9AC23708DBF00C0CABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669C9AB23708DBF00C0CABA /* AppDelegate.swift */; };
+		4669C9AE23708DBF00C0CABA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669C9AD23708DBF00C0CABA /* SceneDelegate.swift */; };
+		4669C9B023708DBF00C0CABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669C9AF23708DBF00C0CABA /* ViewController.swift */; };
+		4669C9B323708DBF00C0CABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4669C9B123708DBF00C0CABA /* Main.storyboard */; };
+		4669C9B523708DC200C0CABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4669C9B423708DC200C0CABA /* Assets.xcassets */; };
+		4669C9B823708DC200C0CABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4669C9B623708DC200C0CABA /* LaunchScreen.storyboard */; };
+		4669C9C323708DC300C0CABA /* encryptSwift5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669C9C223708DC300C0CABA /* encryptSwift5Tests.swift */; };
+		4669C9CE23708DC300C0CABA /* encryptSwift5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669C9CD23708DC300C0CABA /* encryptSwift5UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4669C9BF23708DC300C0CABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4669C9A023708DBF00C0CABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4669C9A723708DBF00C0CABA;
+			remoteInfo = encryptSwift5;
+		};
+		4669C9CA23708DC300C0CABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4669C9A023708DBF00C0CABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4669C9A723708DBF00C0CABA;
+			remoteInfo = encryptSwift5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4669C9A823708DBF00C0CABA /* encryptSwift5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = encryptSwift5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4669C9AB23708DBF00C0CABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4669C9AD23708DBF00C0CABA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4669C9AF23708DBF00C0CABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4669C9B223708DBF00C0CABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4669C9B423708DC200C0CABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4669C9B723708DC200C0CABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4669C9B923708DC200C0CABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4669C9BE23708DC300C0CABA /* encryptSwift5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encryptSwift5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4669C9C223708DC300C0CABA /* encryptSwift5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encryptSwift5Tests.swift; sourceTree = "<group>"; };
+		4669C9C423708DC300C0CABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4669C9C923708DC300C0CABA /* encryptSwift5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encryptSwift5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4669C9CD23708DC300C0CABA /* encryptSwift5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encryptSwift5UITests.swift; sourceTree = "<group>"; };
+		4669C9CF23708DC300C0CABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4669C9A523708DBF00C0CABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669C9BB23708DC300C0CABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669C9C623708DC300C0CABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4669C99F23708DBF00C0CABA = {
+			isa = PBXGroup;
+			children = (
+				4669C9AA23708DBF00C0CABA /* encryptSwift5 */,
+				4669C9C123708DC300C0CABA /* encryptSwift5Tests */,
+				4669C9CC23708DC300C0CABA /* encryptSwift5UITests */,
+				4669C9A923708DBF00C0CABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4669C9A923708DBF00C0CABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4669C9A823708DBF00C0CABA /* encryptSwift5.app */,
+				4669C9BE23708DC300C0CABA /* encryptSwift5Tests.xctest */,
+				4669C9C923708DC300C0CABA /* encryptSwift5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4669C9AA23708DBF00C0CABA /* encryptSwift5 */ = {
+			isa = PBXGroup;
+			children = (
+				4669C9AB23708DBF00C0CABA /* AppDelegate.swift */,
+				4669C9AD23708DBF00C0CABA /* SceneDelegate.swift */,
+				4669C9AF23708DBF00C0CABA /* ViewController.swift */,
+				4669C9B123708DBF00C0CABA /* Main.storyboard */,
+				4669C9B423708DC200C0CABA /* Assets.xcassets */,
+				4669C9B623708DC200C0CABA /* LaunchScreen.storyboard */,
+				4669C9B923708DC200C0CABA /* Info.plist */,
+			);
+			path = encryptSwift5;
+			sourceTree = "<group>";
+		};
+		4669C9C123708DC300C0CABA /* encryptSwift5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4669C9C223708DC300C0CABA /* encryptSwift5Tests.swift */,
+				4669C9C423708DC300C0CABA /* Info.plist */,
+			);
+			path = encryptSwift5Tests;
+			sourceTree = "<group>";
+		};
+		4669C9CC23708DC300C0CABA /* encryptSwift5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4669C9CD23708DC300C0CABA /* encryptSwift5UITests.swift */,
+				4669C9CF23708DC300C0CABA /* Info.plist */,
+			);
+			path = encryptSwift5UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4669C9A723708DBF00C0CABA /* encryptSwift5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4669C9D223708DC300C0CABA /* Build configuration list for PBXNativeTarget "encryptSwift5" */;
+			buildPhases = (
+				4669C9A423708DBF00C0CABA /* Sources */,
+				4669C9A523708DBF00C0CABA /* Frameworks */,
+				4669C9A623708DBF00C0CABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = encryptSwift5;
+			productName = encryptSwift5;
+			productReference = 4669C9A823708DBF00C0CABA /* encryptSwift5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4669C9BD23708DC300C0CABA /* encryptSwift5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4669C9D523708DC300C0CABA /* Build configuration list for PBXNativeTarget "encryptSwift5Tests" */;
+			buildPhases = (
+				4669C9BA23708DC300C0CABA /* Sources */,
+				4669C9BB23708DC300C0CABA /* Frameworks */,
+				4669C9BC23708DC300C0CABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4669C9C023708DC300C0CABA /* PBXTargetDependency */,
+			);
+			name = encryptSwift5Tests;
+			productName = encryptSwift5Tests;
+			productReference = 4669C9BE23708DC300C0CABA /* encryptSwift5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4669C9C823708DC300C0CABA /* encryptSwift5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4669C9D823708DC300C0CABA /* Build configuration list for PBXNativeTarget "encryptSwift5UITests" */;
+			buildPhases = (
+				4669C9C523708DC300C0CABA /* Sources */,
+				4669C9C623708DC300C0CABA /* Frameworks */,
+				4669C9C723708DC300C0CABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4669C9CB23708DC300C0CABA /* PBXTargetDependency */,
+			);
+			name = encryptSwift5UITests;
+			productName = encryptSwift5UITests;
+			productReference = 4669C9C923708DC300C0CABA /* encryptSwift5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4669C9A023708DBF00C0CABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = saqib;
+				TargetAttributes = {
+					4669C9A723708DBF00C0CABA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4669C9BD23708DC300C0CABA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4669C9A723708DBF00C0CABA;
+					};
+					4669C9C823708DC300C0CABA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4669C9A723708DBF00C0CABA;
+					};
+				};
+			};
+			buildConfigurationList = 4669C9A323708DBF00C0CABA /* Build configuration list for PBXProject "encryptSwift5" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4669C99F23708DBF00C0CABA;
+			productRefGroup = 4669C9A923708DBF00C0CABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4669C9A723708DBF00C0CABA /* encryptSwift5 */,
+				4669C9BD23708DC300C0CABA /* encryptSwift5Tests */,
+				4669C9C823708DC300C0CABA /* encryptSwift5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4669C9A623708DBF00C0CABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669C9B823708DC200C0CABA /* LaunchScreen.storyboard in Resources */,
+				4669C9B523708DC200C0CABA /* Assets.xcassets in Resources */,
+				4669C9B323708DBF00C0CABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669C9BC23708DC300C0CABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669C9C723708DC300C0CABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4669C9A423708DBF00C0CABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669C9B023708DBF00C0CABA /* ViewController.swift in Sources */,
+				4669C9AC23708DBF00C0CABA /* AppDelegate.swift in Sources */,
+				4669C9AE23708DBF00C0CABA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669C9BA23708DC300C0CABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669C9C323708DC300C0CABA /* encryptSwift5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4669C9C523708DC300C0CABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4669C9CE23708DC300C0CABA /* encryptSwift5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4669C9C023708DC300C0CABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4669C9A723708DBF00C0CABA /* encryptSwift5 */;
+			targetProxy = 4669C9BF23708DC300C0CABA /* PBXContainerItemProxy */;
+		};
+		4669C9CB23708DC300C0CABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4669C9A723708DBF00C0CABA /* encryptSwift5 */;
+			targetProxy = 4669C9CA23708DC300C0CABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4669C9B123708DBF00C0CABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4669C9B223708DBF00C0CABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4669C9B623708DC200C0CABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4669C9B723708DC200C0CABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4669C9D023708DC300C0CABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4669C9D123708DC300C0CABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4669C9D323708DC300C0CABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = encryptSwift5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeshort.encryptSwift5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4669C9D423708DC300C0CABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = encryptSwift5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeshort.encryptSwift5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4669C9D623708DC300C0CABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = encryptSwift5Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeshort.encryptSwift5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/encryptSwift5.app/encryptSwift5";
+			};
+			name = Debug;
+		};
+		4669C9D723708DC300C0CABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = encryptSwift5Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeshort.encryptSwift5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/encryptSwift5.app/encryptSwift5";
+			};
+			name = Release;
+		};
+		4669C9D923708DC300C0CABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = encryptSwift5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeshort.encryptSwift5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = encryptSwift5;
+			};
+			name = Debug;
+		};
+		4669C9DA23708DC300C0CABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = encryptSwift5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeshort.encryptSwift5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = encryptSwift5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4669C9A323708DBF00C0CABA /* Build configuration list for PBXProject "encryptSwift5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669C9D023708DC300C0CABA /* Debug */,
+				4669C9D123708DC300C0CABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4669C9D223708DC300C0CABA /* Build configuration list for PBXNativeTarget "encryptSwift5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669C9D323708DC300C0CABA /* Debug */,
+				4669C9D423708DC300C0CABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4669C9D523708DC300C0CABA /* Build configuration list for PBXNativeTarget "encryptSwift5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669C9D623708DC300C0CABA /* Debug */,
+				4669C9D723708DC300C0CABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4669C9D823708DC300C0CABA /* Build configuration list for PBXNativeTarget "encryptSwift5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4669C9D923708DC300C0CABA /* Debug */,
+				4669C9DA23708DC300C0CABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4669C9A023708DBF00C0CABA /* Project object */;
+}
